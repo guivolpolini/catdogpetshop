@@ -11,9 +11,8 @@ export function Navbar() {
 
   const navLinks = [
     { label: "Home", href: "#" },
-    { label: "Quem Somos", href: "#quem-somos" },
     { label: "Serviços", href: "#servicos" },
-    { label: "O Que Precisa", href: "#o-que-precisa" },
+    { label: "Quem Somos", href: "#quem-somos" },
     { label: "Agendamento", href: "#agendamento" },
     { label: "Avaliações", href: "#avaliacoes" },
     { label: "Contato", href: "#contato" },
