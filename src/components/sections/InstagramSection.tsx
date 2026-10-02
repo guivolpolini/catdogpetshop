@@ -44,17 +44,17 @@ export function InstagramSection() {
             </div>
           </div>
 
-          {/* Card 2: Veterinário */}
+          {/* Card 2: Loja de Produtos */}
           <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 p-6 rounded-2xl bg-[#FAF8F5] border border-stone-200 shadow-xs group">
             <a
-              href={getWhatsAppLink("Olá! Gostaria de informações sobre atendimento veterinário na Cat & Dog Pet Shop.")}
+              href={getWhatsAppLink("Olá! Gostaria de saber mais sobre os produtos disponíveis na Cat & Dog Pet Shop.")}
               target="_blank"
               rel="noopener noreferrer"
               className="shrink-0"
             >
               <img
-                src="https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/LovePet-6.png"
-                alt="Veterinário Cat & Dog"
+                src="/images/loja-acessorios-cat-dog.png"
+                alt="Loja de Produtos Cat & Dog"
                 className="w-36 h-36 rounded-2xl object-cover shadow-sm group-hover:scale-105 transition-transform"
                 loading="lazy"
               />
@@ -62,25 +62,25 @@ export function InstagramSection() {
             <div className="space-y-2 text-center sm:text-left">
               <h3 className="font-sans text-xl font-bold text-[#4F2D96]">
                 <a
-                  href={getWhatsAppLink("Olá! Gostaria de informações sobre atendimento veterinário na Cat & Dog Pet Shop.")}
+                  href={getWhatsAppLink("Olá! Gostaria de saber mais sobre os produtos disponíveis na Cat & Dog Pet Shop.")}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-[#EA534A] transition-colors"
                 >
-                  Veterinário
+                  Loja de Produtos
                 </a>
               </h3>
               <p className="font-sans text-xs sm:text-sm text-[#4F4F4F] leading-relaxed">
-                Profissionais qualificados que atendem em nosso espaço, além disso, temos suporte para acompanhar a saúde preventiva e o bem-estar do seu filho pet.
+                Rações premium, petiscos, coleiras, guias, brinquedos e acessórios — tudo o que seu pet precisa em um só lugar na Alameda São Caetano.
               </p>
               <div className="pt-2">
                 <a
-                  href={getWhatsAppLink("Olá! Gostaria de informações sobre atendimento veterinário na Cat & Dog Pet Shop.")}
+                  href={getWhatsAppLink("Olá! Gostaria de saber mais sobre os produtos disponíveis na Cat & Dog Pet Shop.")}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="font-bold text-sm text-[#4DA971] hover:text-[#3d8c5d] transition-colors inline-block"
+                  className="font-bold text-sm text-[#4F2D96] hover:text-[#EA534A] transition-colors inline-block"
                 >
-                  Saiba mais &gt;
+                  Ver produtos &gt;
                 </a>
               </div>
             </div>

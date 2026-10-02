@@ -6,28 +6,28 @@ import { getWhatsAppLink } from "@/lib/constants";
 export function Services() {
   const serviceCards = [
     {
-      title: "Banho e Tosa",
-      description: "Saiba mais",
+      title: "Banho & Tosa",
+      description: "Agendar agora",
       image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/03/Design-sem-nome-46.png",
       href: "#agendamento",
     },
     {
-      title: "Creche",
+      title: "Tosa Higiênica",
       description: "Saiba mais",
-      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/Design-sem-nome-2025-04-03T094426.429.png",
-      href: getWhatsAppLink("Olá! Gostaria de informações sobre o serviço de creche na Cat & Dog Pet Shop."),
+      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/LovePet-5.png",
+      href: "#agendamento",
     },
     {
-      title: "Hotel",
+      title: "Hidratação & Spa",
       description: "Saiba mais",
-      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/Design-sem-nome-2025-04-03T094737.425.png",
-      href: getWhatsAppLink("Olá! Gostaria de informações sobre a hospedagem/hotel na Cat & Dog Pet Shop."),
+      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/LovePet-1.png",
+      href: "#agendamento",
     },
     {
-      title: "Veterinário",
-      description: "Saiba mais",
-      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/03/Design-sem-nome-47.png",
-      href: getWhatsAppLink("Olá! Gostaria de consultar atendimento veterinário na Cat & Dog Pet Shop."),
+      title: "Loja de Produtos",
+      description: "Ver produtos",
+      image: "/images/loja-prateleiras-cat-dog.png",
+      href: getWhatsAppLink("Olá! Gostaria de saber mais sobre os produtos disponíveis na Cat & Dog Pet Shop."),
     },
   ];
 
@@ -41,7 +41,7 @@ export function Services() {
             Nossos Serviços
           </h2>
           <p className="font-sans text-sm sm:text-base text-[#4F4F4F] leading-relaxed">
-            Na <strong>Cat &amp; Dog Pet Shop</strong>, oferecemos tudo o que seu companheiro de quatro patas precisa para viver com saúde, alegria e bem-estar. Com uma equipe apaixonada por animais e um ambiente seguro e acolhedor, garantimos um atendimento completo e cheio de amor.
+            Na <strong>Cat &amp; Dog Pet Shop</strong>, seu pet sai lindo, cheiroso e feliz. Banho, tosa, hidratação e uma loja completa de produtos — tudo em um só lugar na Alameda São Caetano.
           </p>
         </div>
 

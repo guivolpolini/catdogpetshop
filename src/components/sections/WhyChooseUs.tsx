@@ -3,56 +3,56 @@ import { getWhatsAppLink } from "@/lib/constants";
 export function WhyChooseUs() {
   const items = [
     {
-      title: "Consultas e Avaliação de Pelagem",
-      desc: "Avaliação completa e personalizada para cães e gatos no conforto e tranquilidade do nosso espaço.",
+      title: "Água Morna Monitorada",
+      desc: "Temperatura da água controlada e ajustada ao porte e sensibilidade de cada pet durante todo o banho.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
-          <path d="m133.711 313.721v-.443c-.717-23.325-18.656-35.529-36-35.529h-.007c-17.348 0-35.28 12.2-36 35.972.717 23.325 18.656 35.529 36 35.529h.007c17.344 0 35.276-12.204 36-35.529zm-57.606 0c.458-14.9 11.181-21.57 21.6-21.57 10.372 0 21.039 6.6 21.6 21.349-.556 14.746-11.223 21.349-21.595 21.349-10.431 0-21.147-6.67-21.605-21.128zm21.6 150.993a7.206 7.206 0 0 0 5.71-2.809c2.995-3.9 73.5-96.151 73.5-148.4 0-.1 0-.19-.007-.285-2.13-53.96-42.55-78.54-79.193-78.543h-.007c-36.644 0-77.063 24.58-79.208 78.828 0 52.151 70.5 144.495 73.5 148.395a7.206 7.206 0 0 0 5.708 2.814zm0-215.641c29.949 0 62.978 20.21 64.806 64.567-.113 39.316-48.035 108.7-64.806 131.779-16.79-23.119-64.805-92.657-64.811-131.635 1.765-44.462 34.836-64.711 64.814-64.711z" />
+          <path d="M256 32c-47 71-128 166-128 238a128 128 0 0 0 256 0C384 198 303 103 256 32zm0 320a48 48 0 0 1-48-48c0-16 8-32 48-72 40 40 48 56 48 72a48 48 0 0 1-48 48z" />
         </svg>
       ),
     },
     {
-      title: "Aplicação de Medicamentos",
-      desc: "Administração de medicamentos via oral, injetável ou tópico no ambiente mais confortável para o pet.",
+      title: "Toalhas Esterilizadas",
+      desc: "Toalhas 100% higienizadas e lacradas individualmente para cada atendimento, sem risco de contaminação cruzada.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
-          <path d="m452.021 399.437c4.723-19.249-.418-40.444-15.426-55.453-19.204-19.204-48.537-22.249-70.96-9.148v-121.892c0-10.853-4.696-21.164-12.884-28.29l-68.619-59.709v-19.372h13.534c12.407 0 22.5-10.094 22.5-22.5v-45.573c0-20.678-16.822-37.5-37.5-37.5h-175.615c-20.678 0-37.5 16.822-37.5 37.5v45.573c0 12.406 10.093 22.5 22.5 22.5h13.533v19.372l-68.619 59.71c-8.187 7.125-12.883 17.437-12.883 28.289v241.556c0 20.678 16.822 37.5 37.5 37.5h61.179" />
+          <path d="M448 64H64a32 32 0 0 0-32 32v320a32 32 0 0 0 32 32h384a32 32 0 0 0 32-32V96a32 32 0 0 0-32-32zm-16 336H80V112h352z" />
         </svg>
       ),
     },
     {
-      title: "Aplicação de Vacinas",
-      desc: "Imunização segura e atualizada: V10 para cães e V3 para gatos, além da vacina contra a raiva.",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 128 128" width="36" className="fill-[#4F2D96]">
-          <path d="m17.107 88.6c-2.209-.163-3.9 2.2-5.312 3.532a4.3 4.3 0 0 0 0 6.085l15.779 15.783a4.318 4.318 0 0 0 6.085 0l2.271-2.27a4.319 4.319 0 0 0 0-6.086l-1.243-1.244 3.735-3.735 5.042 5.042a5.9 5.9 0 0 0 8.514-8.159l40.956-40.956c4.428-4.306 1.587-10.585-1.294-14.955l3.294-4.318" />
-        </svg>
-      ),
-    },
-    {
-      title: "Atestado Sanitário de Viagem",
-      desc: "Documentação completa e orientação para viagens nacionais e internacionais com seu bichinho.",
-      icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 1000 1000" width="36" className="fill-[#4F2D96]">
-          <path d="M605.17,830.53h-290A113.4,113.4,0,0,1,201.85,717.25V233.5A113.39,113.39,0,0,1,315.12,120.23h307A113.4,113.4,0,0,1,735.42,233.5v289a11,11,0,0,1-22,0v-289" />
-        </svg>
-      ),
-    },
-    {
-      title: "Exames Laboratoriais",
-      desc: "Coleta de exames essenciais, como hemograma, bioquímicos, citologia de pele e fezes para diagnóstico preciso.",
+      title: "Cosméticos Hipoalergênicos",
+      desc: "Produtos dermatologicamente testados com pH balanceado para cada tipo de pele e pelagem, sem irritações.",
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
-          <path d="m197.236 233.127c10.735-10.735 79.945-79.949 114.703-114.709 9.542 3.866 20.943 1.963 28.714-5.809 10.356-10.346 10.36-27.11 0-37.47l-59.476-59.472" />
+          <path d="M352 96l-96-64-96 64v32h192V96zm-48 288h-96v32h96v-32zm80-224H128a16 16 0 0 0-16 16v256a16 16 0 0 0 16 16h256a16 16 0 0 0 16-16V176a16 16 0 0 0-16-16zm-48 208H176v-16h160v16zm0-48H176v-16h160v16zm0-48H176v-16h160v16z" />
         </svg>
       ),
     },
     {
-      title: "Consultoria de Manejo & Higiene",
-      desc: "Orientação prática e personalizada para o cuidado, tosa higiênica e bem-estar de cães e gatos.",
+      title: "Secagem Silenciosa",
+      desc: "Secadores profissionais de baixo ruído para reduzir o estresse e garantir conforto total durante o atendimento.",
       icon: (
-        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 64 64" width="36" className="fill-[#4F2D96]">
-          <path d="M54.562,50.351a5.476,5.476,0,0,1-1.247,1.92A5.559,5.559,0,0,1,51.3,53.554L41.658,57.06a1.008,1.008,0,0,0-.587.568l-2,5,1.858.744,1.834-4.585" />
+        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
+          <path d="M416 64H96a32 32 0 0 0-32 32v320a32 32 0 0 0 32 32h320a32 32 0 0 0 32-32V96a32 32 0 0 0-32-32zm-80 208l-96 96V208z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Tosa & Acabamento Profissional",
+      desc: "Cortes personalizados com tesouras profissionais, lâminas esterilizadas e acabamento preciso por tosadores experientes.",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
+          <path d="M256 48C141 48 48 141 48 256s93 208 208 208 208-93 208-208S371 48 256 48zm-32 312l-80-80 22-22 58 58 122-122 22 22z" />
+        </svg>
+      ),
+    },
+    {
+      title: "Atendimento Individualizado",
+      desc: "Cada pet recebe atenção exclusiva, sem contato com outros animais durante o banho, garantindo segurança e tranquilidade.",
+      icon: (
+        <svg xmlns="http://www.w3.org/2000/svg" height="36" viewBox="0 0 512 512" width="36" className="fill-[#4F2D96]">
+          <path d="M256 48a208 208 0 1 0 0 416A208 208 0 0 0 256 48zm0 96a80 80 0 1 1 0 160 80 80 0 0 1 0-160zm0 272a168 168 0 0 1-128-60c2-42 86-66 128-66s126 24 128 66a168 168 0 0 1-128 60z" />
         </svg>
       ),
     },
@@ -65,10 +65,10 @@ export function WhyChooseUs() {
         {/* Section Heading */}
         <div className="text-center max-w-3xl mx-auto space-y-3 mb-16">
           <h2 className="font-young text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#4F2D96]">
-            O que o Seu Pet Precisa?
+            Por que escolher a Cat &amp; Dog?
           </h2>
           <p className="font-sans text-sm sm:text-base text-[#4F4F4F]">
-            Atendimento personalizado visando o bem estar do seu bichinho
+            Cada detalhe do nosso atendimento foi pensado para o bem-estar e conforto do seu pet
           </p>
         </div>
 
