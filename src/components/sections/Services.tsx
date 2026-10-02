@@ -18,12 +18,6 @@ export function Services() {
       href: "#agendamento",
     },
     {
-      title: "Hidratação & Spa",
-      description: "Saiba mais",
-      image: "https://descomplicandosite.com/petshop/wp-content/uploads/2025/04/LovePet-1.png",
-      href: "#agendamento",
-    },
-    {
       title: "Loja de Produtos",
       description: "Ver produtos",
       image: "/images/loja-prateleiras-cat-dog.png",
@@ -41,12 +35,12 @@ export function Services() {
             Nossos Serviços
           </h2>
           <p className="font-sans text-sm sm:text-base text-[#4F4F4F] leading-relaxed">
-            Na <strong>Cat &amp; Dog Pet Shop</strong>, seu pet sai lindo, cheiroso e feliz. Banho, tosa, hidratação e uma loja completa de produtos — tudo em um só lugar na Alameda São Caetano.
+            Na <strong>Cat &amp; Dog Pet Shop</strong>, seu pet sai lindo, cheiroso e feliz. Banho, tosa e uma loja completa de produtos — tudo em um só lugar na Alameda São Caetano.
           </p>
         </div>
 
-        {/* 4 Cards Grid Exactly Like Reference */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+        {/* 3 Cards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
           {serviceCards.map((service, idx) => (
             <div
               key={idx}
