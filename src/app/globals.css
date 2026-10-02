@@ -1,26 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Young+Serif&display=swap');
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Exact Colors from descomplicandosite.com/petshop */
+  --primary: #4F2D96;
+  --secondary: #4DA971;
+  --accent: #EA534A;
+  --accent-light: #FF584E;
+  --accent-hover: #FF6D64;
+  --bg-soft-blue: #D5E6F3;
+  --text-main: #4F4F4F;
+  --text-muted: #686868;
+  --white: #FFFFFF;
+
+  --font-young: 'Young Serif', serif;
+  --font-poppins: 'Poppins', sans-serif;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  color: var(--text-main);
+  background-color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, .font-young {
+  font-family: var(--font-young);
+}
+
+/* Elementor button pulse animation */
+@keyframes elementorPulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.elementor-animation-pulse {
+  animation: elementorPulse 2s infinite ease-in-out;
+}
+
+.elementor-animation-pulse:hover {
+  animation: none;
+  transform: scale(1.04);
+}
+
+/* Triangle shape dividers from Elementor */
+.shape-divider-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+.shape-divider-top svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.shape-divider-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+.shape-divider-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
 }
